@@ -9,8 +9,8 @@ public static void main (String[] args)	{
 
 	String tallTxt = showInputDialog("Oppgi lønn: ");
 	int tall = parseInt(tallTxt);		
-	int nr = 69; 
-	double skatt = 69; 
+	int nr = 0; 
+	double skatt = 0; 
 	
 	if (tall >= 0 && tall <= 190439) {
 		nr = 0;
